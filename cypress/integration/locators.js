@@ -56,7 +56,7 @@ describe('Locators Practice', () => {
         // Combine get with contains  
         cy.get("[type='submit']").contains("Not Unique Text")
 
-        // Get element by tag name and text [Selector,content]
+        // Get element by tag name and text [attribute,content]
         cy.contains("[type='submit']", "Not Unique Text")
  
         // Get element by descent and text 
